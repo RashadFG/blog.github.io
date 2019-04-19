@@ -1,0 +1,24 @@
+#seventh{
+	background: lightgray;
+	.container{
+		height: 450px;
+	
+		.manual{
+			position: relative;
+			top:-25%;
+		   i{
+				color:$colorGold;
+			}
+			li{
+				color:#6F6F6F
+			}
+			div:nth-child(2){
+				height: 443px;
+			}
+			div:nth-child(3){
+		overflow: hidden;
+			}
+		}
+	}
+
+}

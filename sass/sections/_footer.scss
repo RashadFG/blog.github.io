@@ -1,0 +1,176 @@
+.footer{
+	// height: 570px;
+	background:#333333;
+
+	
+	.container-fluid{
+		background:black;
+		min-height: 450px;
+		.container{
+
+			.row1{
+			 // firts:hover
+			 .col-lg-3{
+
+			 	h2{
+			 		font-weight:800;
+			 		font-size: 20px;
+			 	}
+			 	.manual{
+			 		width: 40px;
+			 		transition: all .4s ease;
+			 	}
+			 	address{
+			 		font-size: 17px;
+			 		line-height: 25px;
+			 	}
+			 	p{
+			 		font-size: 17px;
+			 		line-height: 25px;
+			 		a{
+			 			text-decoration:none;
+			 			color:#6c757d;
+			 		}
+
+			 	}
+			 	&:hover{
+			 		.manual{
+			 			width: 60px;
+			 			transition: all .4s ease;
+			 		}
+			 	}
+			 }
+				// fseconds:hover
+				.col-lg-2{
+					h2{
+						font-weight:800;
+						font-size: 20px;
+					}
+					.manual{
+						width: 40px;
+						transition: all .4s ease;
+					}
+					ul{
+						li{
+							font-size: 17px;
+							line-height: 20px;
+							a{
+								text-decoration:none;
+								color:#6c757d;
+								&:hover{
+									Color:$colorGold;
+									&:before{
+										content:'-';
+										transition: all 4s ease;
+									}
+								}
+							}
+						}
+					}
+					&:hover{
+						.manual{
+							width: 60px;
+							transition: all .4s ease;
+						}
+					}
+					
+				}
+				// third:hover
+				.col-lg-4{
+					h2{
+						font-weight:800;
+						font-size: 20px;
+					}
+					.manual{
+						width: 40px;
+						transition: all .4s ease;
+					}
+					.thirdFooterUp{
+						font-size: 14px;
+						i{
+							padding: 25px 0px;
+							color:$colorGold;
+						}
+						a{
+							color:white;
+							text-decoration:none;
+							&:hover{
+								Color:$colorGold;
+								&:before{
+									content:'-';
+									transition: all 4s ease;
+								}
+							}
+						}
+					}
+					&:hover{
+						.manual{
+							width: 60px;
+							transition: all .4s ease;
+						}
+					}
+					
+				}
+							// fourth:hover
+							.col-lg-3{
+								h2{
+									font-weight:800;
+									font-size: 20px;
+								}
+								p{
+									font-size: 17px;
+									line-height: 25px;
+								}
+								.input{
+
+									position: relative;
+									input{
+										font-size:15px;
+										outline:0!important;
+										background: #333333;
+										border:#333333;
+									}
+									.icon{
+										background: #333333;
+										width: 40px;
+										height: 40px;
+										position: absolute;
+										top:39%;
+										right: 7%;
+										color:$colorGold;
+									}
+								}
+
+								&:hover{
+									.manual{
+										width: 60px;
+										transition: all .4s ease;
+									}
+								}
+								
+							}
+
+						}
+					}
+				}
+				.end{
+					background:#333333;
+					min-height:100px;
+					.container{
+						min-height:50px;
+						.row2{
+							color:$colorGray;
+							.col-lg-2{
+								word-spacing: 15px;
+								i{
+									cursor: pointer;
+									&:hover{
+										color:$colorGold;
+
+									}
+								}
+							}
+						}
+					}
+				}
+			}

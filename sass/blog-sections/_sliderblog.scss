@@ -1,0 +1,57 @@
+#sliderblog{
+	background: url('../images/slider.blog.jpg');
+	height: 700px;
+	width: 100%;
+	background-position:center;
+	background-size: cover;
+	.header{
+		padding: 50px 0px;
+		color: white;
+		background: gray;
+		position: fixed;
+		left: 0;
+		right: 0;
+		z-index: 5;
+		.menu{
+			.col-7{
+				i{
+					margin-left: 20px;
+				}
+				ul{
+					display: flex;
+					justify-content: space-around;
+				}
+				a{
+					text-decoration:none;
+					color:white;
+				}
+				a:hover{
+					color:#FDC657;
+				}
+			}
+		}
+		.menu-res{
+			a{
+
+				color:white;
+			}
+			a:hover{
+				color:#FDC657;
+			}
+
+		}
+	}
+	.slider-info{
+		height: 450px;
+		.col-6{
+			height: 200px;
+			color: white;
+			font-weight: 900;
+			text-align:center;
+			font-size: 30px;
+			
+		}
+	}
+}
+
+

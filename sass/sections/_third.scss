@@ -1,0 +1,40 @@
+#third{
+	margin-top:10%;
+	background: url('../images/thirdbg.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	.container{
+		padding: 5% 0px;
+		.row{
+			padding: 3% 1%;
+			.col-md-4{
+				line-height:20px;
+				width: 50px;
+				font-weight: 600;
+				padding: 90px 30px;
+				img{
+					width: 80px;
+					height: 80px;
+					border:1px solid $colorGold
+				}				
+				h2{
+					color:$colorGold;
+					font-weight: 700;
+				}
+				p{
+					color:white;
+				}
+				span{
+					color:$colorGray;
+				}
+
+			}
+
+		}
+
+
+	}
+}

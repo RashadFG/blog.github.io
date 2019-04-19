@@ -1,0 +1,26 @@
+#second{
+
+	.container{
+		.row{
+			
+			.hr{
+				color:$colorGold;
+				font-weight: 900;
+			}
+			h1{
+				font-size: 25px;
+				font-weight: 900;
+			}
+			h2{
+				font-size: 15px;
+				font-weight: 800;
+			}
+			p{
+				font-size: 15px;
+				font-weight: 700;
+				line-height: 20px;
+			}
+		}
+	}
+	
+}
